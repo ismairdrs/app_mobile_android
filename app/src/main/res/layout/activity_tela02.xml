@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Tela02">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/txtDiameter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Diameter"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtRotationPeriod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Rotation Period"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtOrbitalPeriod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Orbital Period"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtGravity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Gravity"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtPopulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Population"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtClimate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Climate"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtTerrain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Terrain"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtSurface_water"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Surface water"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtResidents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Residents"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtFilms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Films"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="url"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="enviar"
+                    android:text="Button" />
+
+            </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listViewTela2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
